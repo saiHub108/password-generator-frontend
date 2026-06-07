@@ -1,0 +1,15 @@
+:root { font-family: system-ui, sans-serif; }
+body { margin: 0; padding: 2rem; background: #f5f5f5; }
+.card {
+  max-width: 460px; margin: 0 auto; background: #fff;
+  padding: 1.5rem; border-radius: 12px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+.password-output {
+  font-family: monospace; word-break: break-all;
+  background: #f0f0f0; padding: 0.75rem; border-radius: 8px;
+  min-height: 1.2em;
+}
+.error { color: #c0392b; }
+button { cursor: pointer; margin-top: 0.5rem; }
+label { display: block; margin: 0.25rem 0; }
